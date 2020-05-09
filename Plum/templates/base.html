@@ -1,0 +1,59 @@
+
+{% load static %}
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link rel="stylesheet" type="text/css" href="{% static 'css/main.css' %}">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script> 
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	
+  <title> {% block title %} {% endblock title %} | DSC NITR</title>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark position-relative text-right" style="padding:1%; ">
+    <a class="navbar-brand" href="#" style="margin-left:10%;">DCS NIT ROURKELA </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav" style="margin-left:35%; ">
+      <ul class="navbar-nav site-navigation position-relative text-right" role="navigation">
+      <li class=" nav-item active">
+        <a class="nav-link" href="/">HOME <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#about"> About </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/team"> The Team </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/project"> Project </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#contact"> Contact Us</a>
+        </li>
+
+        <form class="form-inline">
+          <a href="/idea"><button class="btn btn-outline-success" type="button"> Submit your Idea </button></a>
+        </form>
+
+      </ul>
+    </div>
+  </nav>
+
+
+  {% block body %}
+
+
+  {% endblock body %}
+
+</body>
+
+</html>
