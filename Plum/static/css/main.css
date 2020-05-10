@@ -58,7 +58,43 @@ h1, h2, h3, h4, h5
 #team{
   margin-top: 5%;
 }
-#logo
+#image01{
+  margin-top: 10%;
+  margin-left: 45%;
+}
+
+.site-footer
+{
+  margin-top: 2%;
+}
+
+.social-icons
+{
+  margin-top: 5%;
+}
+.fa {
+  padding: 3px;
+  color: #000;
+}
+#sub{
+  margin-top: 8%;
+}
+
+.site-footer
+{
+  padding-top: 3%;
+  background-color: rgb(244, 245, 245);
+}
+#head02{
+  margin-top: 8%;
+  color: #000;
+}
+
+
+
+
+
+/*#logo
 {
   position: absolute;
   margin-bottom:5%;
@@ -77,3 +113,5 @@ h1, h2, h3, h4, h5
   stroke-dasharray:0px;
   stroke-dashoffset: 0px; 
 }
+
+*/
