@@ -1,6 +1,61 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Righteous&display=swap');
+
 *
 {
 	margin: 0;
     padding: 0;
-    background-image: black;
+}
+span a:hover {
+    box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.14);
+  }
+  
+
+h1, h2, h3, h4, h5
+{
+  font-family: 'Open Sans', sans-serif;
+}
+
+.btn.btn-primary
+{
+    margin-top: 2%;
+    box-shadow: grey;
+	padding: 8px 25px;
+	border: none;
+}
+#banner
+{
+    background-image: linear-gradient(  to right,rgb(247, 245, 247) ,rgb(255, 254, 254));
+    padding-bottom: 20%;
+}
+.title {
+    font-family: 'Barlow',sans-serif;
+    font-weight: 300;
+}
+
+.box {
+  border-radius: 5px;
+  box-shadow: 1px 1px 3px 3px rgba(0, 0, 0, 0.14);
+  background: white;
+  margin: 20px;
+}
+
+#logo
+{
+  position: absolute;
+  opacity: 0.6 ;
+}
+#logo path:nth-child(1){
+  stroke-dasharray: 272px;
+  stroke-dashoffset: 272px;
+
+}
+#logo path:nth-child(2){
+  stroke-dasharray: 463px;
+  stroke-dashoffset: 463px;
+
+}
+#logo path:nth-child(3){
+  stroke-dasharray:463px;
+  stroke-dashoffset: 463px; 
 }

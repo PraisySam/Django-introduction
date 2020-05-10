@@ -124,5 +124,6 @@ STATIC_URL = '/static/'
 STATICFILES_DIRS = [
     os.path.join(BASE_DIR, "static"),
     "/django/DSC/Plum/static/css/"
+    "/django/DSC/Plum/static/js/"
 ]
 
