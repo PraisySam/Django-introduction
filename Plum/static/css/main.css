@@ -35,27 +35,42 @@ h1, h2, h3, h4, h5
 
 .box {
   border-radius: 5px;
+  border-block-color:rgba(167, 167, 167, 0.14);
   box-shadow: 1px 1px 3px 3px rgba(0, 0, 0, 0.14);
   background: white;
   margin: 20px;
 }
+#phone {
+  height: 200px;
+  width: relative;
+  margin-top: 10%;
 
+}
+
+#learn{
+  margin-top: 10%;
+}
+
+
+#team{
+  margin-top: 5%;
+}
 #logo
 {
   position: absolute;
-  opacity: 0.6 ;
+  margin-bottom:5%;
 }
 #logo path:nth-child(1){
-  stroke-dasharray: 272px;
-  stroke-dashoffset: 272px;
+  stroke-dasharray: 372px;
+  stroke-dashoffset: 372px;
 
 }
-#logo path:nth-child(2){
+#logo path:nth-child(3){
   stroke-dasharray: 463px;
   stroke-dashoffset: 463px;
 
 }
-#logo path:nth-child(3){
-  stroke-dasharray:463px;
-  stroke-dashoffset: 463px; 
+#logo path:nth-child(5){
+  stroke-dasharray:0px;
+  stroke-dashoffset: 0px; 
 }
