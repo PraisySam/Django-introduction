@@ -6,18 +6,14 @@ HOME
 
 {% block body %}
 
-<section id="banner">
-  <div class="container">
-    <div class="column">
-      <div class="col-md-6" style="margin-left: 58%; padding-top: 20%;">
-
-        <h2 class="title" style=" margin-top: 21%; margin-left: 3%;"> DSC NIT Rourkela </h2>
-        <a href="https://developers.google.com/community/dsc"><button type="button" class="btn btn-dark">Get
-            Started</button></a>
-
-</section>
-
-
+<div class="col-md-6">
+<img class="main02" style="margin-left:95%;" src="static/img/dsc.png"></img>
+</div>
+<div class="col-md-6">
+<img class="container-fluid" width="100px" height="350px" style="margin-left:5%;" src="static/img/h1.png"></img>
+</div>
+<!-------------------------- youtube SECTION ------------------------>
+<section id="about">
 <div class="box">
   <div class="site-section cta-big-image" id="about-section">
     <div class="container py-5">
@@ -35,10 +31,10 @@ HOME
     </div>
   </div>
 </div>
-
+</section>
 <!-------------------------- PROJECTS SECTION ------------------------>
 <section>
-  <div class="container text-center " id="project">
+  <div class="container text-center " id="project" style="padding-left: 23%; padding-right: 20%;">
     <svg id="phone" width="490" height="428" viewBox="0 0 690 728" fill="none" xmlns="http://www.w3.org/2000/svg">
       <path opacity="0.1"
         d="M105.785 140.976H26.7209C22.1604 140.976 18.4633 144.584 18.4633 149.034V161.114C18.4633 165.564 22.1604 169.172 26.7209 169.172H105.785C110.345 169.172 114.042 165.564 114.042 161.114V149.034C114.042 144.584 110.345 140.976 105.785 140.976Z"
@@ -241,7 +237,7 @@ HOME
     </svg>
 
     <h1> Contribution </h1>
-    <p>DSC NIT Rourkela has undertaken projects in association with other clubs to solve problems related to the
+    <p class="text mx-15">DSC NIT Rourkela has undertaken projects in association with other clubs to solve problems related to the
       Institute.</p>
     <a href="https://github.com/developer-student-clubs-nitr" target="_blank" rel="noopener">
       <button type="button" class="btn btn-secondary"> OUR PROJECTS </button>
@@ -251,7 +247,7 @@ HOME
 <!-------------------------- events SECTION -------------------->
 
 <section>
-  <div class="container text-center" id="event">
+  <div class="container text-center" id="event" style="padding-left: 23%; padding-right: 20%;">
     <svg id="learn" width="424" height="202" viewBox="0 0 1054 832" fill="none" xmlns="http://www.w3.org/2000/svg">
       <path opacity="0.1"
         d="M302.785 140.976H223.721C219.16 140.976 215.463 144.583 215.463 149.033V161.114C215.463 165.564 219.16 169.171 223.721 169.171H302.785C307.345 169.171 311.042 165.564 311.042 161.114V149.033C311.042 144.583 307.345 140.976 302.785 140.976Z"
@@ -575,16 +571,18 @@ HOME
     </svg>
 
     <h1> Events </h1>
-    <p>DSC NIT Rourkela has organised a number of workshops, fun events and meetups with students in and around NIT
+    <p class="text-center ">DSC NIT Rourkela has organised a number of workshops, fun events and meetups with students in and around NIT
       Rourkela to promote learning and developer skills among themselves.</p>
     <a href="/events" target="_blank" rel="noopener">
       <button type="button" class="btn btn-secondary"> OUR EVENTS </button>
     </a>
   </div>
-</section <!--------------------------TEAM SECTION -------------------->
+</section 
+
+<!--------------------------TEAM SECTION -------------------->
 
 <section>
-  <div class="container text-center" id="team">
+  <div class="container text-center" id="team" style="padding-left: 23%; padding-right: 20%;">
 
 
     <svg id="team" width="190" height="184" viewBox="0 0 890 884" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -1529,38 +1527,5 @@ HOME
     </a>
   </div>
 </section>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 {% endblock body %}

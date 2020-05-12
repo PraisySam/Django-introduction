@@ -5,15 +5,6 @@
     padding: 0;
 }
 
-.hey{
-	display: flex;
-	margin:0;
-	margin-top:0;
-	justify-content: center;
-	align-items: center;
-	min-height: 100vh;
-
-}
 
 input[ type="checkbox" ]
 {
@@ -102,11 +93,7 @@ h1, h2, h3, h4, h5
 	padding: 8px 25px;
 	border: none;
 }
-#banner
-{
-    background-image: linear-gradient(  to right,rgb(247, 245, 247) ,rgb(255, 254, 254));
-    padding-bottom: 20%;
-}
+
 .title {
     font-family: 'Barlow',sans-serif;
     font-weight: 300;
@@ -136,16 +123,14 @@ h1, h2, h3, h4, h5
 
 #team{
   margin-top: 5%;
+  
 }
 #image01{
   margin-top: 10%;
   margin-left: 45%;
 }
 
-.site-footer
-{
-  margin-top: 2%;
-}
+
 
 .social-icons
 {
@@ -161,11 +146,11 @@ h1, h2, h3, h4, h5
 
 .site-footer
 {
-  padding-top: 3%;
+  
   background-color: rgb(244, 245, 245);
 }
 #head02{
-  margin-top: 8%;
+  
   color: #000;
 }
 

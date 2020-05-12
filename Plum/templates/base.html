@@ -7,27 +7,30 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
   <link rel="stylesheet" type="text/css" href="{% static 'css/main.css' %}">
   <script src="{% static 'js/main.js' %}" ></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+  <link rel="stylesheet" href=" static/css/style.css ">
   <link rel="stylesheet" href=" https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css ">
   <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js "></script>
   <script src=" https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
   <link rel="stylesheet" href=" https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="shortcut icon" type="image/png" href="https://firebasestorage.googleapis.com/v0/b/project-banana-4822.appspot.com/o/images%2Ffavicon.png?alt=media" />
+
 
   <title> {% block title %} {% endblock title %} | DSC NITR</title>
 </head>
 
 <body>
-<label class="hey">
-  <input type="checkbox" >
-  <span class="check"></span>
-</label>
-
 
 <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark position-relative text-right" style="padding:1%; ">
 
-    <a class="navbar-brand" href="#" style="margin-left:10%;">DCS NIT ROURKELA </a>
+
+
+<!-- <p>THIS IS NAVIGATION BAR</p> -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark position-relative text-right" style="padding:1%; position:fixed; opacity: 0.9; ">
+     <link rel="shortcut icon" type="image/png" href="https://firebasestorage.googleapis.com/v0/b/project-banana-4822.appspot.com/o/images%2Ffavicon.png?alt=media" />
+     <a class="navbar-brand" href="#" style="margin-left:10%;">DCS NIT ROURKELA </a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
       aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -58,6 +61,14 @@
     </div>
   </nav>
 
+<!-- <p>THIS IS dark mode button </p> -->
+
+<label class="hey" style="margin-left: 89%; margin-top: 2%;">
+  <input type="checkbox" >
+  <span class="check"></span>
+</label>
+
+<!-----------------------------------front image---------------------------------------------------------------->
 
   {% block body %}
 
@@ -65,7 +76,19 @@
   {% endblock body %}
 
   <img id="image01" src="static/dsc.png" alt="DSC" style="width: 100px;">
+<!-- partial:index.partial.html -->
+<div class=" wrapper" style="padding-bottom:0%; opacity: 0.6; background: rgb(244, 245, 245);margin-bottom: 0%;">
+<script src='https://cdnjs.cloudflare.com/ajax/libs/react/15.4.2/react-with-addons.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/react/15.4.2/react-dom.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.2/TweenMax.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/parallax/2.1.3/jquery.parallax.min.js'></script>
+<script src="static/js/script.js"></script>       
 
+</div>
+
+<!-- partial -->
+<section id="contact"
   <footer class="site-footer">
 
     <div class="container">
@@ -110,7 +133,7 @@
       <div class="col-md-12">
         <hr>
         <div>
-          <p>Copyright by Poove | All rights reserved | This template is made with <svg class="bi bi-heart-fill"
+          <p>Copyright by DSC NIT Rourkela | All rights reserved | This template is made with <svg class="bi bi-heart-fill"
               width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
               <path fill-rule="evenodd" d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314z"
                 clip-rule="evenodd" />
@@ -121,7 +144,7 @@
     </div>
     </div>
   </footer>
-
+</section>
 </body>
 <script src="http://code.jquery.com/jquery-2.2.4.min.js"></script>
 <script src="static/js/smooth-scroll.js"></script>

@@ -1,4 +1,4 @@
-body {
+/*body {
   height: 100vh;
   display: -webkit-box;
   display: flex;
@@ -7,7 +7,7 @@ body {
   -webkit-box-pack: center;
           justify-content: center;
   background-color: #514878;
-}
+*/
 .switch {
   position: relative;
 }

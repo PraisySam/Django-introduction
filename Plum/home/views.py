@@ -11,5 +11,9 @@ def project(request):
 def team(request):
     return render(request,'team.html')
 
+def events(request):
+    
+    return render(request,'events.html')
+
 def idea(request):
     return render(request,'idea.html')
