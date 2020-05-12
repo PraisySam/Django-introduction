@@ -59,7 +59,6 @@
   </nav>
 
 
-
   {% block body %}
 
 
@@ -125,6 +124,12 @@
 
 </body>
 <script src="http://code.jquery.com/jquery-2.2.4.min.js"></script>
+<script src="static/js/smooth-scroll.js"></script>
+         
+        <script>
+	      var scroll = new SmoothScroll('a[href*="#"]');
+        </script>
+        
 
 <script src="{% static 'js/main.js' %}" type="text/javascript"></script>
 
